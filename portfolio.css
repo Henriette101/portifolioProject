@@ -128,7 +128,7 @@ height:130px;
 
 .middleSection{
     background-color: rgb(233, 233, 233);
-    height:1800px;
+    height:1710px;
    margin-top: 115px;
    z-index: 9;
    position: relative;
@@ -252,4 +252,99 @@ font-size: 14px;
     padding: 10px;
     margin-top: 50px;
 
+}
+
+.whiteDiv5{
+    height:500px;
+    z-index: 19;
+    position: relative;
+    background-color:white;
+    border-top-right-radius: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 10px;
+    margin-top: -35px;
+    border-bottom: 1px solid black;
+
+}
+.whiteDiv5 .aboutMyself{
+    margin-right: 100px;
+}
+
+.welcomeText2{
+      font-weight: 500;
+    color:#142F15;
+    font-size: 50px;
+     margin-left: 139px;
+     width:460px;
+   
+}
+
+.description2{
+    margin-left: 139px;
+    width:500px;
+    font-size: 20px;
+    color:#142F15;
+    margin-top: -28px;
+}
+
+.seeProject2 p{
+    border: 2px solid #3D8C40;
+    width:130px;
+    padding: 12px 10px;
+    color: #3D8C40;
+    font-weight: 580;
+    border-radius: 7px;
+    
+}
+
+.seeProject2{
+    margin-left: 140px;
+}
+
+.Details{
+    display:flex;
+    flex-direction: column;
+    margin-top: 45px;
+    justify-content: space-between;
+    margin-bottom: 55px;
+    margin-right: 139px;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+.languages p{
+    font-weight:500;
+    font-size:21px
+    
+}
+.languagesIcons{
+    display: flex;
+    flex-direction: row;
+ }
+
+.js, .html, .css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    margin-right: 13px;
+    
+}
+.js{
+    padding: 15px 15px 5px 15px;
+}
+.html, .css{
+padding: 15px 25px 5px 25px;
+}
+
+.languagesIcons img{
+    height:50px;
+    width:50px;
 }
