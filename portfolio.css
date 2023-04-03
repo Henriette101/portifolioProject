@@ -1,7 +1,7 @@
 body{
         font-family: 'Poppins', sans-serif;
         padding-top: 50px;
-        padding-bottom: 1000px;
+      
         margin:0;
     
         
@@ -265,7 +265,7 @@ font-size: 14px;
 
     padding: 10px;
     margin-top: -35px;
-    border-bottom: 1px solid black;
+   
 
 }
 .whiteDiv5 .aboutMyself{
@@ -347,4 +347,81 @@ padding: 15px 25px 5px 25px;
 .languagesIcons img{
     height:50px;
     width:50px;
+}
+
+.footer{
+    background-color: #3D8C40;
+    height:700px;
+    border-top-right-radius:70px ;
+    text-align: center;
+    position: relative;
+}
+.footer h1{
+    font-size: 45px;
+    color: white;
+}
+.footer p{
+    width:350px;
+   margin-left: 510px;
+   color: white;
+}
+
+.input1, .input2, .input3{
+    width:415px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.input1, .input2{
+    height:47px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border-style: none;
+}
+
+.input3{
+    height:150px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-style: none;
+    text-align:start;
+    width:415px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 17px;
+    
+}
+
+.getInTouch{
+    background-color: white;
+    height:35px;
+    width:125px;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 5px;
+    border: 1.5px solid #3a7a3b;
+    margin-left: 610px;
+    font-weight: 700;
+    color: #209123;
+}
+
+.footer .topVector22 {
+   position:absolute;
+   left: 40px;
+   top:60px;
+   height:100px
+}
+
+.footer .leftVector2{
+    position: absolute;
+    right:40px;
+    top:500px;
+    height:110px
+}
+
+.footer .bottomleftvector2{
+    position:absolute;
+    top:30px;
+    right:150px;
+    height:50px;
 }
